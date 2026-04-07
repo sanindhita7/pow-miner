@@ -1,0 +1,25 @@
+{
+  "name": "pow-miner",
+  "version": "1.0.0",
+  "description": "CLI Mining Tool for $POW Solana Memecoin",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "pow-miner": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "mine": "node src/index.js"
+  },
+  "keywords": ["pow", "miner", "solana", "memecoin", "sha256"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "ora": "^8.2.0",
+    "boxen": "^8.0.1",
+    "gradient-string": "^3.0.0",
+    "dotenv": "^16.5.0"
+  }
+}
